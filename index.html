@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <!-- Animate AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -48,7 +50,7 @@
     </header>
     <!-- Services -->
     <section class="page-section" id="services">
-        <div class="container">
+        <div class="container" data-aos="zoom-in-up">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Serviços</h2>
                 <h3 class="section-subheading text-muted">Fazemos diversos serviços para sua prancha</h3>
@@ -75,7 +77,7 @@
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-box-open fa-stack-1x fa-inverse"></i>
                         </span>
-                    <h4 class="my-3">Encomende</h4>
+                    <h4 class="my-3">Sob Medida</h4>
                     <p class="text-muted">Fazemos sua prancha sob medida, traga seu modelo. Venha na oficina fale seu tipo de surf que ajudamos você com a melhor pranhca.</p>
                 </div>
             </div>
@@ -83,7 +85,7 @@
     </section>
     <!-- Portfolio Grid MODELOS-->
     <section class="page-section bg-light" id="portfolio">
-        <div class="container">
+        <div class="container" data-aos="zoom-in">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Modelos</h2>
                 <h3 class="section-subheading text-muted">Nossos modelos disponíveis </h3>
@@ -178,7 +180,7 @@
     </section>
     <!-- About OFICINA-->
     <section class="page-section" id="about">
-        <div class="container">
+        <div class="container"  data-aos="zoom-in">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Oficina</h2>
                 <h3 class="section-subheading text-muted">Minha história como shaper</h3>
@@ -186,7 +188,7 @@
             <ul class="timeline">
                 <li>
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Adesivos.png" alt="" /></div>
-                    <div class="timeline-panel">
+                    <div class="timeline-panel" data-aos="fade-right">
                         <div class="timeline-heading">
                             <h4>2009-2011</h4>
                             <h4 class="subheading">Início dos trabalhos</h4>
@@ -198,7 +200,7 @@
                 </li>
                 <li class="timeline-inverted">
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Adesivos.png" alt="" /></div>
-                    <div class="timeline-panel">
+                    <div class="timeline-panel" data-aos="fade-left">
                         <div class="timeline-heading">
                             <h4>Março 2011</h4>
                             <h4 class="subheading">Abertura da oficina</h4>
@@ -210,7 +212,7 @@
                 </li>
                 <li>
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Adesivos.png" alt="" /></div>
-                    <div class="timeline-panel">
+                    <div class="timeline-panel"  data-aos="fade-right">
                         <div class="timeline-heading">
                             <h4>Dezembro 2012</h4>
                             <h4 class="subheading">Início da fabricação</h4>
@@ -222,7 +224,7 @@
                 </li>
                 <li class="timeline-inverted">
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Adesivos.png" alt="" /></div>
-                    <div class="timeline-panel">
+                    <div class="timeline-panel" data-aos="fade-left">
                         <div class="timeline-heading">
                             <h4>Julho 2014</h4>
                             <h4 class="subheading">Casa Nova</h4>
@@ -233,7 +235,7 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image">
+                    <div class="timeline-image" data-aos="flip-up">
                         <h3><br> <br> Hoje</h3>
                     </div>
                 </li>
@@ -549,6 +551,12 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
